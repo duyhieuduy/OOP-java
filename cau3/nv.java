@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class nv {
  
- Random random;
+ Random nn;
  int number;
  
  nv(){
