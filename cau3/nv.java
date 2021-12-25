@@ -1,11 +1,11 @@
 import java.util.Random;
 
-public class nv2 {
+public class nv {
  
  Random random;
  int number;
  
- nv2(){
+ nv(){
   nn = new Random();
   roll();
  }

@@ -1,10 +1,10 @@
-public class nv1 {
+public class nv {
 
 	String name;
 	int age;
 	double weight;
 	
-	nv1(String name,int age,double weight){
+	nv(String name,int age,double weight){
 		
 		this.name = name;
 		this.age = age;

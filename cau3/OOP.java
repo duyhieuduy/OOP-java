@@ -1,4 +1,4 @@
-public class OOP2 {
+public class OOP {
 
     public static void main(String[] args) {
      
@@ -8,7 +8,7 @@ public class OOP2 {
      //global  = declared outside a method, but within a class
      //   visible to all parts of a class
      
-     nv2 xx = new nv2();
+     nv xx = new nv2();
      
     }
    }
