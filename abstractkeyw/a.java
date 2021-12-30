@@ -7,7 +7,7 @@ public class a {
 		//				abstract methods are declared without an implementation(gian tiep,trien khai)
         //  tao lop bao ve cho code
 		
-		//Vehicle vehicle = new Vehicle(); cant instant when the astract class declare
+		//Vehicle vehicle = new Vehicle(); cant instantiated when the abstract class declare
 		Car car = new Car();
 		
 		car.go();
@@ -18,13 +18,19 @@ abstract class Vehicle {
 	
 	abstract void go();// cause abstract methods are declared without an implementation(gian tiep,trien khai) (body is unnecessary)
 }
+abstract class howdrive{
+	abstract void how();
+}
 //****************************************
 class Car extends Vehicle{
 
 	@Override
 	void go() {
-		System.out.println("The driver is driving the car");
+		System.out.println("The driver is driving the car");//we can add method,funtion in there extended class
 		
 	}
+}
+class Car extends howdrive{
+	
 }
 //****************************************

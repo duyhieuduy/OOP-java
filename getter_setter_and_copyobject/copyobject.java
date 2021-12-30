@@ -1,9 +1,9 @@
-public class a {
+public class copyobject {
 	public static void main(String[] args) {
 		Car car1 = new Car("Chevrolet");
-		//Car car2 = new Car("Ford");
-		//car2.copy(car1);
+		//Car car2 = new Car("Ford");		
 		Car car2 = new Car(car1);
+		//car2.copy(car1);
 		System.out.println(car1);
 		System.out.println(car2);
 		System.out.println();
@@ -17,18 +17,16 @@ class Car {
     Car(String make){
 		this.setMake(make);
 	}
-	Car(Car x){
-		this.copy(x);
-	}
 		public String getMake() {
 		return make;
 	}
 	public void setMake(String make) {
 		this.make = make;
 	}
+	Car(Car x){
+		this.copy(x);
+	}
 	public void copy(Car x) {
 		this.setMake(x.getMake());
-		this.setModel(x.getModel());
-		this.setYear(x.getYear());
 	}
 }

@@ -16,7 +16,7 @@ class hieu {
 
 class Actives extends hieu{
     //khi ke thua class co constructor 
-    //ta phai khai bao lai constructor hieu
+    //ta phai khai bao lai atribute cua constructor hieu
     //nhu sau:
     Actives(String name) {
         super(name);
@@ -28,8 +28,10 @@ class Actives extends hieu{
     //....
     void third(){    
     System.out.println(name + " nam ngu ");
-    //second(){
+    //@override 
+    //void second(){
     //    super.second();
+    // add funtion,code that ya want rewrite
     //}
 }
 }

@@ -5,7 +5,7 @@ class Cha{
 }
 
 class Conme extends Cha{ //cant use class name con() lol 3 fk hour for this bullshit.
-    
+    @Override
     void in(){    
         super.in();      
         System.out.println("b345");          

@@ -1,6 +1,6 @@
 public class nv {
 
-	String name;
+	String name; //those are atribute include variable and there's types
 	int age;
 	double weight;
 	
@@ -10,7 +10,7 @@ public class nv {
 		//Parameterized Constructor: la contructor co tham so
 		//khac biet voi method ve access modifier(pham vi luu tru du lieu)
 		//(public,private,defaul,..)
-		this.name = name;//this dung de replace class name
+		this.name = name;//this dung de replace object name
 		this.age = age;//other wise hieu.weight = weight and hieu1.weight
 		this.weight = weight;
 	}

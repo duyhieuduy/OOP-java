@@ -13,9 +13,9 @@ public class hatxucxac {
     //local =  declared inside a method
     //visible only to that method
     //trong vi du: ngẫu nhiên và số dấu chấm
-    //được khai báo trong method hatxucxac chỉ
-    //chiếm dữ liệu trong method và k thể sử dụng 
-    //trong lac()
+    //được khai báo trong class hatxucxac chỉ
+    //chiếm dữ liệu trong class và k thể sử dụng 
+    //trong method lac()
     //sửa:
     // Cách 1: vẫn sử dụng biến local
     public class hatxucxac {
@@ -48,5 +48,3 @@ public class hatxucxac {
         System.out.println(sodaucham);
         }
       }
-
-  
