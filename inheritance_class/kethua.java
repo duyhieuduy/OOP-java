@@ -29,7 +29,8 @@ class Actives extends hieu{
     void third(){    
     System.out.println(name + " nam ngu ");
     //@override 
-    //void second(){
+    void second(){
+        System.out.println("hieupro123");
     //    super.second();
     // add funtion,code that ya want rewrite
     //}

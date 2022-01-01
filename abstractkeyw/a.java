@@ -30,7 +30,9 @@ class Car extends Vehicle{
 		
 	}
 }
-class Car extends howdrive{
-	
-}
+/* class Car extends howdrive{
+	void how(){
+		System.out.println("The driver is driving by hand");
+	} ly do phai su dung interface
+} */
 //****************************************
