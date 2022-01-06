@@ -28,14 +28,15 @@ class Actives extends hieu{
     //....
     void third(){    
     System.out.println(name + " nam ngu ");
-    //@override 
+    /* @override 
     void second(){
-        System.out.println("hieupro123");
+        System.out.println("hieupro123"); */
     //    super.second();
     // add funtion,code that ya want rewrite
     //}
 }
 }
+
 //0. ke thua: vao main chi can goi doi tuong cua class Actives()
 //k can goi class hieu() de chay firstly() va second()
 class kethua{
